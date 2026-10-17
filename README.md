@@ -1,8 +1,15 @@
 # Plinko-Landing-Page
 
-Webpage for my HPCC4 badge
+Link page for my HPCC4 (Horse Plinko Cyber Challenge 4) badge, NFC-encoded to <https://badge.blackbird-technologies.dev/>.
 
-http://badge.blackbird-technologies.dev/
+Static site served from `docs/` via GitHub Pages. No build step, no external dependencies.
 
-*Note: There is no documentation for this website, due to the rushed state it was created in, there may be quality inconsistencies or weird bugs.*
-*Second Note: This webpage also does not work on desktop and is only designed to be rendered on phones*
+```
+docs/
+├── index.html      # page + inline CSS
+├── 404.html
+├── CNAME
+└── public/         # avatar, logos, Metropolis font subset
+```
+
+Mobile-first; renders correctly on desktop too.
