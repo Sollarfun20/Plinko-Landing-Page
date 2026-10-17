@@ -1,6 +1,6 @@
 # Plinko-Landing-Page
 
-Link page for my HPCC4 (Horse Plinko Cyber Challenge 4) badge, NFC-encoded to <https://badge.blackbird-technologies.dev/>.
+Link page for my HPCC4 (Horse Plinko Cyber Challenge 4) badge, NFC-encoded to <https://badge.blckbrd.dev/>.
 
 Static site served from `docs/` via GitHub Pages. No build step, no external dependencies.
 
